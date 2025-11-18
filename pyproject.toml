@@ -34,7 +34,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/droidmaximus/crosstem"
 Repository = "https://github.com/droidmaximus/crosstem"
-Documentation = "https://github.com/droidmaximus/crosstem#readme"
+Documentation = "https://crosstem.readthedocs.io/en/latest/"
 
 [tool.setuptools]
 packages = ["crosstem"]
