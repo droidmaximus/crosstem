@@ -22,3 +22,6 @@ Thumbs.db
 
 # Project specific
 data/neo4j_import/*.csv
+
+# Etymology data (downloaded separately, too large for GitHub)
+crosstem/data/etymology.json
