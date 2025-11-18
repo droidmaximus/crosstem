@@ -1,0 +1,51 @@
+# Citation Information
+
+If you use Crosstem in your research, please cite the following:
+
+## Primary Citation: MorphyNet
+
+The derivational morphology data used in this package comes from MorphyNet:
+
+```bibtex
+@inproceedings{batsuren2021morphynet,
+  title={MorphyNet: a Large Multilingual Database of Derivational and Inflectional Morphology},
+  author={Batsuren, Khuyagbaatar and Bella, G{\'a}bor and Giunchiglia, Fausto},
+  booktitle={Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology},
+  pages={39--48},
+  year={2021},
+  url={https://aclanthology.org/2021.sigmorphon-1.5}
+}
+```
+
+## Optional: UniMorph Format Support
+
+If you specifically use the UniMorph format preprocessing option (the data itself is from MorphyNet, just in UniMorph TSV format), you may also cite:
+
+```bibtex
+@inproceedings{mccarthy2020unimorph,
+  title={The {UniMorph} 3.0 Schema},
+  author={McCarthy, Arya D. and Vylomova, Ekaterina and Wu, Shijie and Malaviya, Chaitanya and Wolf-Sonkin, Lawrence and Nicolai, Garrett and Kirov, Christo and Silfverberg, Miikka and Mielke, Sabrina J. and Heinz, Jeffrey and Cotterell, Ryan and Hulden, Mans},
+  booktitle={Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology},
+  pages={10--30},
+  year={2020},
+  url={https://aclanthology.org/2020.sigmorphon-1.2}
+}
+```
+
+## This Package
+
+If you want to cite this specific package implementation:
+
+```bibtex
+@software{crosstem,
+  title={Crosstem: Cross-POS Derivational Stemmer for Python},
+  author={Avinash Bhojanapalli},
+  year={2025},
+  url={https://github.com/droidmaximus/crosstem}
+}
+```
+
+## Data Licenses
+
+- **MorphyNet**: CC BY-SA 4.0
+- **This Package**: MIT License
