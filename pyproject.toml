@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0,<77.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,6 @@ version = "0.2.0"
 description = "Comprehensive morphological analysis: derivational stemming, inflectional analysis, and cross-lingual etymology"
 readme = "README.md"
 requires-python = ">=3.7"
-license = {text = "MIT"}
 authors = [
     {name = "Avinash Bhojanapalli", email = "bhojanapalliavinash@gmail.com"}
 ]
@@ -39,9 +38,9 @@ Documentation = "https://github.com/droidmaximus/crosstem#readme"
 
 [tool.setuptools]
 packages = ["crosstem"]
+include-package-data = true
 
 [tool.setuptools.package-data]
 crosstem = [
     "data/*.json",
-    "!data/etymology.json"  # Exclude etymology - downloaded separately
 ]

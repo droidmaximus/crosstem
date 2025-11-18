@@ -1,5 +1,9 @@
 ﻿# Crosstem
 
+[![PyPI version](https://badge.fury.io/py/crosstem.svg)](https://badge.fury.io/py/crosstem)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A comprehensive Python package for morphological analysis combining derivational stemming, inflectional analysis, and cross-lingual etymology.
 
 ## Why Crosstem?
